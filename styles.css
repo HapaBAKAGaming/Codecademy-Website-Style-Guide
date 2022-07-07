@@ -1,0 +1,94 @@
+body {
+    font-family: monospace;
+    background-color: #dddada;
+  }
+  
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+.color-container {
+    width: 100%;
+}
+  
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+  }
+
+.green {
+    background-color: #00cc18;
+    color: #fff;
+}
+
+.cyan {
+    background-color: #00b4cc;
+    color:#fff;
+}
+
+.pink {
+    background-color: #cc00b4;
+    color: #fff;
+}
+
+.red {
+    background-color: #cc1800;
+    color: #fff;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.kantumruy-pro {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.fira-sans {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+}
